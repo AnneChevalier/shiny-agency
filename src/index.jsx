@@ -24,6 +24,7 @@ ReactDOM.render(
             <Route path="/results" element={<Results />} />
             <Route path="/freelances" element={<Freelances />} />
             <Route path="/shiny-agency" element={<Home />} />
+            <Route path="/home" element={<Home />} />
             <Route path="*" element={<Error />} />
           </Routes>
           <Footer />
