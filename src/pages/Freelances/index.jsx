@@ -37,7 +37,8 @@ const LoaderWrapper = styled.div`
 function Freelances() {
   const { theme } = useTheme()
   const { data, isLoading, error } = useFetch(
-    `http://localhost:8000/freelances`
+    `https://7150606-api-react-intermediaire.vercel.app/freelances`
+    //http://localhost:8000/freelances
   )
   // Ici le "?" permet de s'assurer que data existe bien.
   const freelancersList = data?.freelancersList

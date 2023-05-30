@@ -71,7 +71,10 @@ function Survey() {
   const { saveAnswers, answers } = useContext(SurveyContext)
   //const [error, setError] = useState(null)
 
-  const { data, isLoading, error } = useFetch(`http://localhost:8000/survey`)
+  const { data, isLoading, error } = useFetch(
+    `https://7150606-api-react-intermediaire.vercel.app/survey`
+  )
+  //http://localhost:8000/survey
   const surveyData = data?.surveyData
 
   function saveReply(answer) {

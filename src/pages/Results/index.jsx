@@ -73,7 +73,8 @@ function Results() {
   const { answers } = useContext(SurveyContext)
   const fetchParams = formatQueryParams(answers)
   const { data, isLoading, error } = useFetch(
-    `http://localhost:8000/results?${fetchParams}`
+    `https://7150606-api-react-intermediaire.vercel.app/results?${fetchParams}`
+    //http://localhost:8000/results?${fetchParams}
   )
 
   if (error) {
