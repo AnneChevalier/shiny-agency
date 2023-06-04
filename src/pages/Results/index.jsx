@@ -73,7 +73,7 @@ function Results() {
   const { answers } = useContext(SurveyContext)
   const fetchParams = formatQueryParams(answers)
   const { data, isLoading, error } = useFetch(
-    `https://7150606-api-react-intermediaire.vercel.app/results?${fetchParams}`
+    `https://shiny-anne.herokuapp.com/results?${fetchParams}`
     //http://localhost:8000/results?${fetchParams}
   )
 

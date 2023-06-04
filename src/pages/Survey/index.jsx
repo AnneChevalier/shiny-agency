@@ -72,7 +72,7 @@ function Survey() {
   //const [error, setError] = useState(null)
 
   const { data, isLoading, error } = useFetch(
-    `https://7150606-api-react-intermediaire.vercel.app/survey`
+    `https://shiny-anne.herokuapp.com/survey`
   )
   //http://localhost:8000/survey
   const surveyData = data?.surveyData

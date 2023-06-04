@@ -37,7 +37,7 @@ const LoaderWrapper = styled.div`
 function Freelances() {
   const { theme } = useTheme()
   const { data, isLoading, error } = useFetch(
-    `https://7150606-api-react-intermediaire.vercel.app/freelances`
+    `https://shiny-anne.herokuapp.com/freelances`
     //http://localhost:8000/freelances
   )
   // Ici le "?" permet de s'assurer que data existe bien.
