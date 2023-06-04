@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/shiny-agency/static/js/main.16ac7937.js",
+    "main.js": "/shiny-agency/static/js/main.5696bade.js",
     "static/media/404.svg": "/shiny-agency/static/media/404.fc9ddee48547c71d5534244cfc2a911c.svg",
     "static/media/home-illustration.svg": "/shiny-agency/static/media/home-illustration.3c3e6fa7e38c96aae00aea10c3cbf9cd.svg",
     "index.html": "/shiny-agency/index.html",
-    "main.16ac7937.js.map": "/shiny-agency/static/js/main.16ac7937.js.map"
+    "main.5696bade.js.map": "/shiny-agency/static/js/main.5696bade.js.map"
   },
   "entrypoints": [
-    "static/js/main.16ac7937.js"
+    "static/js/main.5696bade.js"
   ]
 }
