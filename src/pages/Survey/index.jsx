@@ -74,7 +74,6 @@ function Survey() {
   const { data, isLoading, error } = useFetch(
     `https://shiny-anne.herokuapp.com/survey`
   )
-  //http://localhost:8000/survey
   const surveyData = data?.surveyData
 
   function saveReply(answer) {

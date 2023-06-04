@@ -74,7 +74,6 @@ function Results() {
   const fetchParams = formatQueryParams(answers)
   const { data, isLoading, error } = useFetch(
     `https://shiny-anne.herokuapp.com/results?${fetchParams}`
-    //http://localhost:8000/results?${fetchParams}
   )
 
   if (error) {
